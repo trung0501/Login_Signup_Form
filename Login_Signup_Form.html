@@ -433,12 +433,9 @@
         positionArray = [position3, position2, position5, position4, position1, position6, position7, position8];
         };
 
-
-      /* ====================== *
-      * Create Shapes          *
-      * ====================== */
+      //Create Shapes          
       function initializeShapes() {
-        // Get Canvas Bounds
+       // Get Canvas Bounds
         getCanvasBounds();
 
         var shapePathData = [
@@ -469,9 +466,7 @@
 
       initializeShapes();
 
-      /* ====================== *
-      * Animation              *
-      * ====================== */
+      //Animation           
       view.onFrame = function paperOnFrame(event) {
         if (event.count % 4 === 0) {
           // Slows down frame rate
