@@ -5,27 +5,27 @@
    
    📄 HTML (Content structure): Includes 3 main parts:
    
-     . Sign in form (sign in form): Enter email and password.
+       . Sign in form (sign in form): Enter email and password.
    
-     . Sign up form (sign up form): Enter the name, email and password.
+       . Sign up form (sign up form): Enter the name, email and password.
    
-     . Toggle part (Toggle Panel): contains welcome notifications and 2 switch buttons between login/registration.
+       . Toggle part (Toggle Panel): contains welcome notifications and 2 switch buttons between login/registration.
    
    🎨 CSS (Create interface effects and conversion): Beautiful interface design, professional with:
    
-     . Corner, shadow, between content.
+       . Corner, shadow, between content.
    
-     . The movement effect when switching from signs to sign up and vice versa.
+       . The movement effect when switching from signs to sign up and vice versa.
    
-     . Use Transform, Opacity, Z-Index, and Transition to control the hidden/display smoothly between forms.
+       . Use Transform, Opacity, Z-Index, and Transition to control the hidden/display smoothly between forms.
    
    ⚙️ JavaScript (Conversion control)
    
-     . Processing event when the user presses the "Sign in" or "Sign up" button.
+       . Processing event when the user presses the "Sign in" or "Sign up" button.
    
-     . Add or delete Class Active on the element .container.
+       . Add or delete Class Active on the element .container.
    
-     . Class Active controls the conversion effect between the login form and registers via CSS.
+       . Class Active controls the conversion effect between the login form and registers via CSS.
 4. Principle of operation:
 
      . When the user opens the page: the login form is displayed by default.
